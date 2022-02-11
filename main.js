@@ -161,6 +161,7 @@ document.addEventListener("keydown", function(ev){
     console.log(ev.key);
 });
 
+board_view.draw();
 window.addEventListener("load",controller);
 
 function controller(){
